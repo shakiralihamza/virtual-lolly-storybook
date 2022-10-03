@@ -15,7 +15,7 @@ export default {
 } as ComponentMeta<typeof ViewLollyDetails>;
 
 const Template: ComponentStory<typeof ViewLollyDetails> = (args) => (
-    <Box sx={{width:'500px'}}>
+    <Box sx={{maxWidth:'500px'}}>
         <ViewLollyDetails {...args} />
     </Box>
 );

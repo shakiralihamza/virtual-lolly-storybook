@@ -9,7 +9,7 @@ export default {
 } as ComponentMeta<typeof InputForm>;
 
 const Template: ComponentStory<typeof InputForm> = (args) => (
-    <Box sx={{width:'400px', ml:5}}>
+    <Box sx={{maxWidth:'400px', ml:5}}>
         <InputForm {...args} />
     </Box>
 );
